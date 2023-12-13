@@ -9,7 +9,7 @@ docker swarm init
 ```
 2. Deploy stack
 ```
-git clone 
+git clone https://github.com/zhukake/stat-pack.git
 docker stack deploy -c grafana-docker-stack/docker-compose.yml monitoring
 ```
 3. Add `http://prometheus:9090` to grafana
@@ -40,7 +40,7 @@ docker swarm init
 ```
 
 
-git clone 
+git clone https://github.com/zhukake/stat-pack.git
 
 docker stack deploy -c grafana-docker-stack/node-exporter.yml node-exporter
 ```
