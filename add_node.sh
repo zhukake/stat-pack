@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Инициализация Docker Swarm
 docker swarm init
 
