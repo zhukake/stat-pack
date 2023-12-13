@@ -9,3 +9,4 @@ cd grafana-docker-stack
 
 # Развёртывание стека Docker с использованием Compose
 docker stack deploy -c docker-compose.yml node-exporter
+
