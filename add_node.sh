@@ -8,7 +8,7 @@ docker swarm init
 # Клонирование репозитория
 echo -e "\e[41m\e[97mКЛОНИРУЮ ЁПТА\e[0m"
 echo -e "\e[47m\e[91mВАШИ ГИТХАБЫ\e[0m"
-git clone https://github.com/zhukake/stat-pack.git
+cd ~ && git clone https://github.com/zhukake/stat-pack.git
 
 # Переход в директорию с файлом docker-compose.yml qqq
 cd ./stat-pack
