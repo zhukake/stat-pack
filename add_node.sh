@@ -17,7 +17,7 @@ cd ./stat-pack
 echo -e "\e[41m\e[97mЗАПУСКАЮ ЁПТА\e[0m"
 echo -e "\e[47m\e[91mNODE_EXPORTER\e[0m"
 docker stack deploy -c node-exporter.yml node-exporter
-cd ../
+cd ../ # правка потому что я ебало тупое
 
 echo -e "\e[41m\e[97mКУ-КУ ЁПТА!\e[0m"
 echo -e "\e[47m\e[91mГОТОВО\e[0m"
