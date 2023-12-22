@@ -52,3 +52,4 @@ docker ps | grep prometheus | awk '{print $1}' | xargs docker kill -s SIGHUP
 
 7. speedtest.sh | bash
 or 
+curl -s https://raw.githubusercontent.com/zhukake/stat-pack/main/speedtest.sh | bash 
