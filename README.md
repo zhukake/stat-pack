@@ -49,3 +49,6 @@ docker stack deploy -c grafana-docker-stack/node-exporter.yml node-exporter
 ```
 docker ps | grep prometheus | awk '{print $1}' | xargs docker kill -s SIGHUP
 
+
+7. speedtest.sh | bash
+or 

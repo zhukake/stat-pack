@@ -19,4 +19,6 @@ git clone https://github.com/zhukake/stat-pack.git
 cd ./stat-pack
 
 # Развёртывание стека Docker с использованием Compose
-docker stack deploy -c docker-compose.yml monitoring
+
+
+deploy -c docker-compose.yml monitoring
