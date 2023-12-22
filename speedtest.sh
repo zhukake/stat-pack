@@ -947,4 +947,3 @@ install_speedtest && speed && rm -fr speedtest-cli
 next
 print_end_time
 next
-(END)
